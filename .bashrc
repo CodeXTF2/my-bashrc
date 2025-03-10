@@ -23,4 +23,3 @@ function set-title() {
   TITLE="\[\e]2;$*\a\]"
   PS1=${ORIG}${TITLE}
 }
-set-title PwnBox Shell
